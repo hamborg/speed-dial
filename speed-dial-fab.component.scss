@@ -1,0 +1,47 @@
+.fab-container {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 100;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: right;
+    float: right;
+    direction: rtl;
+    width: 150px;
+  
+    > div {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      margin-bottom: 0px;
+  
+      button {
+        margin-bottom: 12px;
+      }
+
+      .btn-label {
+          color: darkslategray;
+          background: lightgrey;
+          padding: 5px;
+          margin: 15px;
+          border-radius: 20px;
+      }
+    }
+  }
+  
+  .fab-toggler {
+    float: left;
+    z-index: 100;
+  }
+
+  #fab-dismiss {
+    position: fixed;
+    background: white;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+  }
